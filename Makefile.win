@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = 과제1-1(출력).o 과제1-3(출력).o "과제\ 2-1(문자열).o"
-LINKOBJ  = 과제1-1(출력).o 과제1-3(출력).o "과제 2-1(문자열).o"
+OBJ      = HelloWorld(출력).o 고프06쪽(출력).o 고프07쪽(문자열).o 고프09~10쪽(문자열).o 고프13쪽(배열).o 고프14쪽(배열).o
+LINKOBJ  = HelloWorld(출력).o 고프06쪽(출력).o 고프07쪽(문자열).o 고프09~10쪽(문자열).o 고프13쪽(배열).o 고프14쪽(배열).o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -24,11 +24,20 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-과제1-1(출력).o: 과제1-1(출력).c
-	$(CC) -c 과제1-1(출력).c -o 과제1-1(출력).o $(CFLAGS)
+HelloWorld(출력).o: HelloWorld(출력).c
+	$(CC) -c HelloWorld(출력).c -o HelloWorld(출력).o $(CFLAGS)
 
-과제1-3(출력).o: 과제1-3(출력).c
-	$(CC) -c 과제1-3(출력).c -o 과제1-3(출력).o $(CFLAGS)
+고프06쪽(출력).o: 고프06쪽(출력).c
+	$(CC) -c 고프06쪽(출력).c -o 고프06쪽(출력).o $(CFLAGS)
 
-"과제\ 2-1(문자열).o": 과제\ 2-1(문자열).c
-	$(CC) -c "과제 2-1(문자열).c" -o "과제 2-1(문자열).o" $(CFLAGS)
+고프07쪽(문자열).o: 고프07쪽(문자열).c
+	$(CC) -c 고프07쪽(문자열).c -o 고프07쪽(문자열).o $(CFLAGS)
+
+고프09~10쪽(문자열).o: 고프09~10쪽(문자열).c
+	$(CC) -c 고프09~10쪽(문자열).c -o 고프09~10쪽(문자열).o $(CFLAGS)
+
+고프13쪽(배열).o: 고프13쪽(배열).c
+	$(CC) -c 고프13쪽(배열).c -o 고프13쪽(배열).o $(CFLAGS)
+
+고프14쪽(배열).o: 고프14쪽(배열).c
+	$(CC) -c 고프14쪽(배열).c -o 고프14쪽(배열).o $(CFLAGS)

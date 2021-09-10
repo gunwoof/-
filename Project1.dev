@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=5
+UnitCount=6
 
 [VersionInfo]
 Major=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=고프6쪽(출력).c
+FileName=고프06쪽(출력).c
 CompileCpp=0
 Folder=
 Compile=1
@@ -71,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=고프8쪽(문자열).c
+FileName=고프07쪽(문자열).c
 CompileCpp=0
 Folder=
 Compile=1
@@ -81,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=고프9쪽(문자열).c
+FileName=고프09~10쪽(문자열).c
 CompileCpp=0
 Folder=
 Compile=1
@@ -91,7 +91,17 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=고프7쪽(문자열).c
+FileName=고프13쪽(배열).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=고프14쪽(배열).c
 CompileCpp=0
 Folder=
 Compile=1
