@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main_array2(void) {
+int main_array(void) {
 	int i = 0;
 	int count[26] = {0,};
 	int count1[52] = {0,};
