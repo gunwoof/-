@@ -10,7 +10,7 @@ int main_array2(void) {
 	char s[30];
 	
 	gets(s);
-	/*// (각 대문자 : 개수) 26개 각각 출력 
+	// (각 대문자 : 개수) 26개 각각 출력 
 	for(i = 0; i < strlen(s); i++) {
 		if(('A'<=s[i]) && (s[i]<='Z')) {
 			count[s[i] - 'A']++;
@@ -18,9 +18,9 @@ int main_array2(void) {
 	}
 	for(i = 0; i < 26; i++) {
 		printf("%c : %2d\n", 'A'+i, count[i]);
-	}*/
+	}
 	
-	// Practice 1) (각 소문자 : 개수) 26개 각각 출력 
+	/*// Practice 1) (각 소문자 : 개수) 26개 각각 출력 
 	for(i = 0; i < strlen(s); i++) {
 		if(('a'<=s[i]) && (s[i]<='z')) {
 			count[s[i] - 'a']++;
@@ -30,7 +30,7 @@ int main_array2(void) {
 		printf("%c : %2d\n", 'a'+i, count[i]);
 	}
 	
-	/*// Practice 2) (각 대문자와 소문자  : 개수) 대문자와 소문자 52개 각각 출력
+	// Practice 2) (각 대문자와 소문자  : 개수) 대문자와 소문자 52개 각각 출력
 	// Practice 2-1) count1[52]사용 
 	for(i = 0; i < strlen(s); i++) {
 	if(('A'<=s[i]) && (s[i]<='Z')) {
