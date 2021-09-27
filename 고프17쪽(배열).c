@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define Len 10
 
-int main/*_array5*/(void) {
+int main_array5(void) {
 	int i;
 	int ele[Len]={3,2,0,1,-4,10,-5,5,-1,9}; 
 	int sum =0;
