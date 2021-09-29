@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000001000000
-UnitCount=14
+UnitCount=17
 
 [VersionInfo]
 Major=1
@@ -182,6 +182,36 @@ BuildCmd=
 
 [Unit14]
 FileName=고프21쪽(배열).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit15]
+FileName=고프24쪽(반복문).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit16]
+FileName=고프25쪽(반복문).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit17]
+FileName=..\이름없음3.c
 CompileCpp=0
 Folder=
 Compile=1

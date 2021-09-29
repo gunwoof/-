@@ -5,7 +5,7 @@
 void DumpArray(int e[]);
 int Findlocation(int from, int e[]);
 
-int main(void) {
+int main_array9(void) {
 	int i;
 	int ele[Len] = {3, 2, 0, 1, -4, 10, -5, 5, -1, 9};
 	int tmp;
