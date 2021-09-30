@@ -211,7 +211,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit17]
-FileName=..\이름없음3.c
+FileName=고프26족(반복문).c
 CompileCpp=0
 Folder=
 Compile=1
