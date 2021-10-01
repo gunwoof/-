@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define Len 10
 
-int main(void) {
+int main_loop3(void) {
 	int i, j, k;
 	
 	//
