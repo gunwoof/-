@@ -4,8 +4,8 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = HelloWorld(출력).o 고프06쪽(출력).o 고프07쪽(문자열).o 고프09~10쪽(문자열).o 고프13쪽(배열).o 고프14쪽(배열).o 고프08쪽(문자열).o 고프15쪽(배열).o 고프16쪽(배열).o 고프17쪽(배열).o 고프18쪽(배열).o 고프19쪽(배열).o 고프20쪽(배열).o 고프21쪽(배열).o 고프24쪽(반복문).o 고프25쪽(반복문).o 고프26족(반복문).o 고프28쪽(행렬).o 고프29쪽(행렬).o 고프30쪽(행렬).o
-LINKOBJ  = HelloWorld(출력).o 고프06쪽(출력).o 고프07쪽(문자열).o 고프09~10쪽(문자열).o 고프13쪽(배열).o 고프14쪽(배열).o 고프08쪽(문자열).o 고프15쪽(배열).o 고프16쪽(배열).o 고프17쪽(배열).o 고프18쪽(배열).o 고프19쪽(배열).o 고프20쪽(배열).o 고프21쪽(배열).o 고프24쪽(반복문).o 고프25쪽(반복문).o 고프26족(반복문).o 고프28쪽(행렬).o 고프29쪽(행렬).o 고프30쪽(행렬).o
+OBJ      = HelloWorld(출력).o 고프06쪽(출력).o 고프07쪽(문자열).o 고프09~10쪽(문자열).o 고프13쪽(배열).o 고프14쪽(배열).o 고프08쪽(문자열).o 고프15쪽(배열).o 고프16쪽(배열).o 고프17쪽(배열).o 고프18쪽(배열).o 고프19쪽(배열).o 고프20쪽(배열).o 고프21쪽(배열).o 고프24쪽(반복문).o 고프25쪽(반복문).o 고프26족(반복문).o 고프28쪽(행렬).o 고프29쪽(행렬).o 고프30쪽(행렬).o 고프31쪽(행렬).o 고프32쪽(행렬).o
+LINKOBJ  = HelloWorld(출력).o 고프06쪽(출력).o 고프07쪽(문자열).o 고프09~10쪽(문자열).o 고프13쪽(배열).o 고프14쪽(배열).o 고프08쪽(문자열).o 고프15쪽(배열).o 고프16쪽(배열).o 고프17쪽(배열).o 고프18쪽(배열).o 고프19쪽(배열).o 고프20쪽(배열).o 고프21쪽(배열).o 고프24쪽(반복문).o 고프25쪽(반복문).o 고프26족(반복문).o 고프28쪽(행렬).o 고프29쪽(행렬).o 고프30쪽(행렬).o 고프31쪽(행렬).o 고프32쪽(행렬).o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -83,3 +83,9 @@ HelloWorld(출력).o: HelloWorld(출력).c
 
 고프30쪽(행렬).o: 고프30쪽(행렬).c
 	$(CC) -c 고프30쪽(행렬).c -o 고프30쪽(행렬).o $(CFLAGS)
+
+고프31쪽(행렬).o: 고프31쪽(행렬).c
+	$(CC) -c 고프31쪽(행렬).c -o 고프31쪽(행렬).o $(CFLAGS)
+
+고프32쪽(행렬).o: 고프32쪽(행렬).c
+	$(CC) -c 고프32쪽(행렬).c -o 고프32쪽(행렬).o $(CFLAGS)
