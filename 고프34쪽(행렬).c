@@ -5,7 +5,7 @@ void DumpMat1(int e[][3]); // 3x3 행렬을 출력
 int LowCol(int a[][3],int b[][3],int i,int j); // 한 행* 한 렬을 출력 
 void MulAmt(int a[][3],int b[][3],int c[][3]); // a행렬*b행렬=c행렬을 출력 
  
-int main/*_matrix7*/(void) {
+int main_matrix7(void) {
 	int i,j;
 	int a[3][3] = {{1,2,1},{0,2,3},{1,1,1}};
 	int b[3][3] = {{2,1,6},{3,1,3},{1,4,1}};
