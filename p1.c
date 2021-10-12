@@ -10,13 +10,13 @@ int main(void) {
 	
 	int OddMatter[3];
 	int EvenMatter[2];
-	printf("5개의 단어를 입력해 주세요!\n");
+	printf("5개의 단어를 몇 번만에 맞추었는지 입력해 주세요!\n");
 	scanf_s("%d %d %d %d %d", &OddMatter[0], &EvenMatter[0], &OddMatter[1], &EvenMatter[1], &OddMatter[2]);
 	
 	// 홀수 번째 문제 
 	for(i=0; i < 3; i++){
 		if(1<= OddMatter[i] && OddMatter[i] <=2) {
-			OddSum -= 2 - OddMatter[i];
+			OddSum += OddMatter[i] -2; // OddSum -= 2 - OddMatter[i]에서 수정 
 		}
 		else if (3 <= OddMatter[i] && OddMatter[i] <= 6) {
 			OddSum += OddMatter[i] -2;
@@ -29,7 +29,7 @@ int main(void) {
 	// 짝수 번째 문제 
 	for(i=0; i < 2; i++){
 		if(1<= EvenMatter[i] && EvenMatter[i] <=3) {
-			EvenSum -= 3 - EvenMatter[i];
+			EvenSum += EvenMatter[i] - 3; // EvenSum -= 3 - EvenMatter[i]에서 수정
 		}
 		else if (4 <= EvenMatter[i] && EvenMatter[i] <= 7) {
 			EvenSum += EvenMatter[i] -3;

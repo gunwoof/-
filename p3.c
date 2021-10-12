@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main_2(void) {
 	int Score[6];
 	printf("x, y, z와 맞은 문제의 수를 술서대로 입력하시오!\n");
 	scanf_s("%d %d %d %d %d %d", &Score[0], &Score[1], &Score[2], &Score[3], &Score[4], &Score[5]);
