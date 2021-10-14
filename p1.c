@@ -15,8 +15,8 @@ int main(void) {
 	
 	// 홀수 번째 문제 
 	for(i=0; i < 3; i++){
-		if(1<= OddMatter[i] && OddMatter[i] <=2) {
-			OddSum += OddMatter[i] -2; // OddSum -= 2 - OddMatter[i]에서 수정 
+		if(OddMatter[i] <=2) {
+			OddSum += OddMatter[i] -2; 
 		}
 		else if (3 <= OddMatter[i] && OddMatter[i] <= 6) {
 			OddSum += OddMatter[i] -2;
@@ -28,8 +28,8 @@ int main(void) {
 	
 	// 짝수 번째 문제 
 	for(i=0; i < 2; i++){
-		if(1<= EvenMatter[i] && EvenMatter[i] <=3) {
-			EvenSum += EvenMatter[i] - 3; // EvenSum -= 3 - EvenMatter[i]에서 수정
+		if(EvenMatter[i] <=3) {
+			EvenSum += EvenMatter[i] - 3; 
 		}
 		else if (4 <= EvenMatter[i] && EvenMatter[i] <= 7) {
 			EvenSum += EvenMatter[i] -3;

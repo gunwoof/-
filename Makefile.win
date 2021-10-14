@@ -1,17 +1,17 @@
-# Project: 고급평가과제
+# Project: Project1
 # Makefile created by Dev-C++ 5.11
 
-CPP      = g++.exe
-CC       = gcc.exe
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = p1.o p2.o p3.o
-LINKOBJ  = p1.o p2.o p3.o
-LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+OBJ      = HelloWorld(출력).o 고프06쪽(출력).o 고프07쪽(문자열).o 고프09~10쪽(문자열).o 고프13쪽(배열).o 고프14쪽(배열).o 고프08쪽(문자열).o 고프15쪽(배열).o 고프16쪽(배열).o 고프17쪽(배열).o 고프18쪽(배열).o 고프19쪽(배열).o 고프20쪽(배열).o 고프21쪽(배열).o 고프24쪽(반복문).o 고프25쪽(반복문).o 고프26족(반복문).o 고프28쪽(행렬).o 고프29쪽(행렬).o 고프30쪽(행렬).o 고프31쪽(행렬).o 고프32쪽(행렬).o 고프33쪽(행렬).o 고프34쪽(행렬).o 고프35~36쪽(가우스조던소거).o 고프37쪽(가우스조던소거).o 고프38쪽(가우스조던소거).o 고프39~40쪽(가우스조던소거).o "고프43쪽(범위\ 규칙).o"
+LINKOBJ  = HelloWorld(출력).o 고프06쪽(출력).o 고프07쪽(문자열).o 고프09~10쪽(문자열).o 고프13쪽(배열).o 고프14쪽(배열).o 고프08쪽(문자열).o 고프15쪽(배열).o 고프16쪽(배열).o 고프17쪽(배열).o 고프18쪽(배열).o 고프19쪽(배열).o 고프20쪽(배열).o 고프21쪽(배열).o 고프24쪽(반복문).o 고프25쪽(반복문).o 고프26족(반복문).o 고프28쪽(행렬).o 고프29쪽(행렬).o 고프30쪽(행렬).o 고프31쪽(행렬).o 고프32쪽(행렬).o 고프33쪽(행렬).o 고프34쪽(행렬).o 고프35~36쪽(가우스조던소거).o 고프37쪽(가우스조던소거).o 고프38쪽(가우스조던소거).o 고프39~40쪽(가우스조던소거).o "고프43쪽(범위 규칙).o"
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = 고급평가과제.exe
-CXXFLAGS = $(CXXINCS) 
-CFLAGS   = $(INCS) 
+BIN      = Project1.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -24,11 +24,89 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-p1.o: p1.c
-	$(CC) -c p1.c -o p1.o $(CFLAGS)
+HelloWorld(출력).o: HelloWorld(출력).c
+	$(CC) -c HelloWorld(출력).c -o HelloWorld(출력).o $(CFLAGS)
 
-p2.o: p2.c
-	$(CC) -c p2.c -o p2.o $(CFLAGS)
+고프06쪽(출력).o: 고프06쪽(출력).c
+	$(CC) -c 고프06쪽(출력).c -o 고프06쪽(출력).o $(CFLAGS)
 
-p3.o: p3.c
-	$(CC) -c p3.c -o p3.o $(CFLAGS)
+고프07쪽(문자열).o: 고프07쪽(문자열).c
+	$(CC) -c 고프07쪽(문자열).c -o 고프07쪽(문자열).o $(CFLAGS)
+
+고프09~10쪽(문자열).o: 고프09~10쪽(문자열).c
+	$(CC) -c 고프09~10쪽(문자열).c -o 고프09~10쪽(문자열).o $(CFLAGS)
+
+고프13쪽(배열).o: 고프13쪽(배열).c
+	$(CC) -c 고프13쪽(배열).c -o 고프13쪽(배열).o $(CFLAGS)
+
+고프14쪽(배열).o: 고프14쪽(배열).c
+	$(CC) -c 고프14쪽(배열).c -o 고프14쪽(배열).o $(CFLAGS)
+
+고프08쪽(문자열).o: 고프08쪽(문자열).c
+	$(CC) -c 고프08쪽(문자열).c -o 고프08쪽(문자열).o $(CFLAGS)
+
+고프15쪽(배열).o: 고프15쪽(배열).c
+	$(CC) -c 고프15쪽(배열).c -o 고프15쪽(배열).o $(CFLAGS)
+
+고프16쪽(배열).o: 고프16쪽(배열).c
+	$(CC) -c 고프16쪽(배열).c -o 고프16쪽(배열).o $(CFLAGS)
+
+고프17쪽(배열).o: 고프17쪽(배열).c
+	$(CC) -c 고프17쪽(배열).c -o 고프17쪽(배열).o $(CFLAGS)
+
+고프18쪽(배열).o: 고프18쪽(배열).c
+	$(CC) -c 고프18쪽(배열).c -o 고프18쪽(배열).o $(CFLAGS)
+
+고프19쪽(배열).o: 고프19쪽(배열).c
+	$(CC) -c 고프19쪽(배열).c -o 고프19쪽(배열).o $(CFLAGS)
+
+고프20쪽(배열).o: 고프20쪽(배열).c
+	$(CC) -c 고프20쪽(배열).c -o 고프20쪽(배열).o $(CFLAGS)
+
+고프21쪽(배열).o: 고프21쪽(배열).c
+	$(CC) -c 고프21쪽(배열).c -o 고프21쪽(배열).o $(CFLAGS)
+
+고프24쪽(반복문).o: 고프24쪽(반복문).c
+	$(CC) -c 고프24쪽(반복문).c -o 고프24쪽(반복문).o $(CFLAGS)
+
+고프25쪽(반복문).o: 고프25쪽(반복문).c
+	$(CC) -c 고프25쪽(반복문).c -o 고프25쪽(반복문).o $(CFLAGS)
+
+고프26족(반복문).o: 고프26족(반복문).c
+	$(CC) -c 고프26족(반복문).c -o 고프26족(반복문).o $(CFLAGS)
+
+고프28쪽(행렬).o: 고프28쪽(행렬).c
+	$(CC) -c 고프28쪽(행렬).c -o 고프28쪽(행렬).o $(CFLAGS)
+
+고프29쪽(행렬).o: 고프29쪽(행렬).c
+	$(CC) -c 고프29쪽(행렬).c -o 고프29쪽(행렬).o $(CFLAGS)
+
+고프30쪽(행렬).o: 고프30쪽(행렬).c
+	$(CC) -c 고프30쪽(행렬).c -o 고프30쪽(행렬).o $(CFLAGS)
+
+고프31쪽(행렬).o: 고프31쪽(행렬).c
+	$(CC) -c 고프31쪽(행렬).c -o 고프31쪽(행렬).o $(CFLAGS)
+
+고프32쪽(행렬).o: 고프32쪽(행렬).c
+	$(CC) -c 고프32쪽(행렬).c -o 고프32쪽(행렬).o $(CFLAGS)
+
+고프33쪽(행렬).o: 고프33쪽(행렬).c
+	$(CC) -c 고프33쪽(행렬).c -o 고프33쪽(행렬).o $(CFLAGS)
+
+고프34쪽(행렬).o: 고프34쪽(행렬).c
+	$(CC) -c 고프34쪽(행렬).c -o 고프34쪽(행렬).o $(CFLAGS)
+
+고프35~36쪽(가우스조던소거).o: 고프35~36쪽(가우스조던소거).c
+	$(CC) -c 고프35~36쪽(가우스조던소거).c -o 고프35~36쪽(가우스조던소거).o $(CFLAGS)
+
+고프37쪽(가우스조던소거).o: 고프37쪽(가우스조던소거).c
+	$(CC) -c 고프37쪽(가우스조던소거).c -o 고프37쪽(가우스조던소거).o $(CFLAGS)
+
+고프38쪽(가우스조던소거).o: 고프38쪽(가우스조던소거).c
+	$(CC) -c 고프38쪽(가우스조던소거).c -o 고프38쪽(가우스조던소거).o $(CFLAGS)
+
+고프39~40쪽(가우스조던소거).o: 고프39~40쪽(가우스조던소거).c
+	$(CC) -c 고프39~40쪽(가우스조던소거).c -o 고프39~40쪽(가우스조던소거).o $(CFLAGS)
+
+"고프43쪽(범위\ 규칙).o": 고프43쪽(범위\ 규칙).c
+	$(CC) -c "고프43쪽(범위 규칙).c" -o "고프43쪽(범위 규칙).o" $(CFLAGS)

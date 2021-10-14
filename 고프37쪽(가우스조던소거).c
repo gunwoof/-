@@ -23,7 +23,7 @@ void GaoussEli(double m[][Len]) {
 	int i,j,k;
 	for(i=0;i<Len;i++) {
 		for(j=i; j<Len; j++) {
-			MulRow(m,j,1.0/m[j][i]);
+			MulRow(m,j,1.0/m[j][i]); // 한 칸씩 밀려서 곱하기 때문에 [j][i]임 
 		}
 		for(j=i+1; j<Len; j++) {
 			SubstRow(m,j,i);
