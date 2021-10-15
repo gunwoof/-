@@ -3,7 +3,7 @@
 
 int isPrimeNumber(int n); // 소수 판별기 
 
-int main(void) {
+int main_scope1(void) {
 	int num;
 	
 	// 소수를 판별하여 출력 
