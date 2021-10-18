@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main_2(void) {
+int main(void) {
 	int i;
 	int Sum=0;
 	int Event[5]; 
