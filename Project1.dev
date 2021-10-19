@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000001000000
-UnitCount=29
+UnitCount=32
 
 [VersionInfo]
 Major=1
@@ -332,6 +332,36 @@ BuildCmd=
 
 [Unit29]
 FileName=고프43쪽(범위 규칙).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit30]
+FileName=고프52쪽(재귀함수).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit31]
+FileName=고프53쪽(재귀함수).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit32]
+FileName=고프54~55쪽(재귀함수).c
 CompileCpp=0
 Folder=
 Compile=1
