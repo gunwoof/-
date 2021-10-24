@@ -4,7 +4,7 @@ void hanoi(char from, char mid, char to, int n); // 하노이 타워(3이상)
 void hanoix(char from, char mid, char to, int n); // 하노이 타워(3이상)
 
 
-int main/*_recursion3*/(void) {
+int main_recursion3(void) {
 	
 	// 하노이 타워 출력 
 	hanoi('A','B','c',3);
