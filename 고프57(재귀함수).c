@@ -24,7 +24,7 @@ void traverse(int loc, int end, int b[]) {
 	return;
 }
 
-int main_recursion4(void) {
+int main/*_recursion4*/(void) {
 	int bin[5];
 	traverse(0,5,bin);
 } 
