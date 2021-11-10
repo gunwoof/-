@@ -13,7 +13,7 @@ void perm4(int a[], int d, int len); // 5자리의 순열에서 끝의 두 자리 수의 합이 
 void Dump3(int a[],int len);
 void EvennumPerm(int a[], int d, int len); // 5자리의 순열에서 짝수로 시작하는 순열을 출력
 
-int main(void) {
+int main_recursion5(void) {
 	int i;
 	int arr[Num];
 	for(i=0; i<Num; i++) {

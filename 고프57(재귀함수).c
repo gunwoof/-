@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+void Dump(int b[],int len);
+void traverse(int loc, int end, int b[]);
+
+int main_recursion4(void) {
+	int bin[5];
+	
+	// on-off space
+	traverse(0,5,bin);
+} 
+
 void Dump(int b[],int len) {
 	int i;
 	for(i=0;i<len;i++) {
@@ -23,8 +33,3 @@ void traverse(int loc, int end, int b[]) {
 	}
 	return;
 }
-
-int main_recursion4(void) {
-	int bin[5];
-	traverse(0,5,bin);
-} 
