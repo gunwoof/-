@@ -50,8 +50,18 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
+[Unit4]
+FileName=p4(중간고사).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
 [Unit1]
-FileName=p1.c
+FileName=p1(중간고사).c
 CompileCpp=0
 Folder=
 Compile=1
@@ -61,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=p2.c
+FileName=p2(중간고사).c
 CompileCpp=0
 Folder=
 Compile=1
@@ -71,17 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=p3.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit4]
-FileName=p4.c
+FileName=p3(중간고사).c
 CompileCpp=0
 Folder=
 Compile=1
