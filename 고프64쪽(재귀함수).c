@@ -8,7 +8,7 @@ void DumpShort(int b[],int len); // 최소비용
 void swap(int *a, int *b);
 void permForShort(int a[], int d, int len); // 최소 소비비용 출력 
 
-int main/*_recursion8*/(void) {
+int main_recursion8(void) {
 	int i;
 	int arr[Num];
 	for(i=0; i<Num; i++) {

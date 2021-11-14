@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000001000000
-UnitCount=38
+UnitCount=39
 
 [VersionInfo]
 Major=1
@@ -422,6 +422,16 @@ BuildCmd=
 
 [Unit38]
 FileName=고프68쪽(패턴).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit39]
+FileName=고프69~70쪽(패턴).c
 CompileCpp=0
 Folder=
 Compile=1
