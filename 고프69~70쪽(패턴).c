@@ -7,6 +7,8 @@ int main(void) {
 	char str[30], *p;
 	p = str;
 	int count=0;
+	int idx=0; // Prcatice3에서 index감지 
+	int start=0; // Prcatice3에서 a가 시작할 때 
 	
 	gets(p);
 	
@@ -43,7 +45,7 @@ int main(void) {
 		} 
 		p++;		
 	}
-	printf("%d", count);*/
+	printf("%d", count);
 	
 	// Practice 1) a(1개)b(0~무한)a(1개)의 개수를 구하여 출력 
 	while(*p != 0 ) {
@@ -71,7 +73,36 @@ int main(void) {
 		} 
 		p++;		
 	}
-	printf("%d", count);
+	printf("%d", count);*/
+	
+	// Practice 2) a(1개)b(0~무한)a(1개)의 패턴에서 조건을 만족하는 시작 index를 구하여 출력 
+	while(*p != 0 ) {
+		switch(state) {
+			case State0 : 
+				switch(*p) {
+					case 'a' : state = State1; start = idx; break;
+					default : state = State0; break;					
+				}
+			break; 
+			case State1 :
+				switch(*p) {
+					case 'a' : state = State2; printf("%d", start); break;
+					case 'b' : state = State1; break;
+					default : state = State0; break;
+				}
+			break;
+			case State2 : 
+				switch(*p) {
+					case 'a' : state = State1; start = idx; break;
+					default : state = State0; break;
+				}
+			break;
+			default : break;
+		} 
+		p++;
+		idx++;		
+	}
+
 	
  
 	
