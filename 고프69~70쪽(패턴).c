@@ -2,7 +2,7 @@
 
 typedef enum {State0, State1, State2, State3} State;
 
-int main(void) {
+int main/*_pattern2*/(void) {
 	State state = State0;
 	char str[30], *p;
 	p = str;
