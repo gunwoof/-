@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000001000000
-UnitCount=39
+UnitCount=42
 
 [VersionInfo]
 Major=1
@@ -432,6 +432,36 @@ BuildCmd=
 
 [Unit39]
 FileName=고프69~70쪽(패턴).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit40]
+FileName=고프84쪽(linked list).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit41]
+FileName=고프87쪽(linked list).c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit42]
+FileName=고프85쪽(linked list).c
 CompileCpp=0
 Folder=
 Compile=1
