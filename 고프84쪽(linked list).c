@@ -26,9 +26,9 @@ int main_linkedlist1(void) {
 }
 
 void ShowRecPtr(Student *r) {
-	printf("%d %d %.2f %s\n", r->id, r->game, r->ave, r->name);
+   printf("%d %d %.2f %s\n", r->id, r->game, r->ave, r->name);
 }
 
 void ShowRec(Student r) {
-	printf("%d %d %.2f %s\n", r.id, r.game, r.ave, r.name);
+   printf("%d %d %.2f %s\n", r.id, r.game, r.ave, r.name);
 }

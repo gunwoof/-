@@ -24,3 +24,5 @@ int main/*_linkedlist3*/(void) {
 		p = p -> next;
 	}
 }
+
+

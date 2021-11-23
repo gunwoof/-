@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -12,11 +12,11 @@ int main_linkedlist2(void) {
 	Student s, t, *p;
 	s.id = 6; s.game = 10; s.ave = 6.5; strcpy(s.name, "Haha");
 	t.id = 4; t.game =3; t.ave = 5.6; strcpy(t.name, "Mama");
-	/*ShowRec(s); ShowRec(t);*/ ShowRecPtr(&s); ShowRecPtr(&t);
+	ShowRec(s); ShowRec(t); ShowRecPtr(&s); ShowRecPtr(&t);
 	
-	/*p = &s;
+	p = &s;
 	ShowRec(p);
 	
-	s = t; */
-}
+	s = t; 
+}*/
 
