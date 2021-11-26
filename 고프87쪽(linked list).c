@@ -8,7 +8,7 @@ typedef struct t_rec {int id; char name[16]; double ave; int game; struct t_rec 
 void ShowRec(Student r);
 void ShowRecPtr(Student *r);
 
-int main/*_linkedlist3*/(void) {
+int main_linkedlist3(void) {
 	Student *s, *t, *u, *p;
 	
 	s = (Student *) malloc(sizeof(Student));
