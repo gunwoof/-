@@ -1,6 +1,6 @@
 [Project]
-FileName=고급평가과제.dev
-Name=고급평가과제
+FileName=고급평가과제2.dev
+Name=고급평가과제2
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=p1(1차과제).c
+FileName=..\p1(2차과제).c
 CompileCpp=0
 Folder=
 Compile=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=p2(1차과제).c
+FileName=..\p2(2차과제).c
 CompileCpp=0
 Folder=
 Compile=1
@@ -71,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=p3(1차과제).c
+FileName=..\p3(2차과제).c
 CompileCpp=0
 Folder=
 Compile=1
