@@ -10,7 +10,7 @@ typedef struct t_rec {int id; char name[16]; double ave; int game; struct t_rec 
 void ShowRecPtr(Student *r);
 void ShowRec(Student r);
 
-int main/*_linkedlist1*/(void) {
+int main_linkedlist1(void) {
 	Student *s, *t, *u;
 	printf("%d %d %d %d\n", sizeof(s), sizeof(*s), sizeof(s->id), sizeof(s->next));
 	
