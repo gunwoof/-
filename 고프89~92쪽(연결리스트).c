@@ -12,6 +12,7 @@ Student *head = NULL;
 void ShowList(); // 연결리스트 모두 출력 
 void Append(int i, char *s, double a, int g); // 연결리스트 맨 끝에 새로울 리스트 추가하기 
 void Push(int i, char *s, double a, int g); // 연결리스트 맨 처음에 새로운 리스트 추가하기 
+void FreeAll();
 
 int main_linkedlist4(void) {
 	// 연결리스트 만들어 출력 
@@ -23,6 +24,7 @@ int main_linkedlist4(void) {
 	// 기존의 연결리스트 앞에 새로운 리스트 추가하여 출력 
 	Push(10, "TreyLyles", 0.555, 54);
 	ShowList();
+	FreeAll();
 	
 } 
 
