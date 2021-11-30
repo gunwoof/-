@@ -18,7 +18,7 @@ void FindLast(); // 마지막 리스트에서 name을 출력
 void FreeAll(); // 모든 연결리스트를 free한다 
 
 
-int main/*_linkedlist5*/(void) {
+int main_linkedlist5(void) {
 	Student *m;
 	Append(1, "TimDuncon", 0.986, 98);
 	Append(4, "ToyParker", 0.567, 43);
@@ -28,12 +28,32 @@ int main/*_linkedlist5*/(void) {
 	Append(7, "MarcoBelinelli", 0.756, 67);
 	ShowList();
 	
+	// FinList와 FindId 출력 
 	m = FindList("ToyParker");
+	printf("ToyParker의 node값은 %d", m);
+	int *a;
+	a = FindId("ToyParker");
+	printf("ToyParker의 id값은 %d", a);
 	printf("%4d %16s %4.3f %4d\n", m->id, m->name, m->ave, m->game);
 	
+	// 삽입 
 	Insert("DemarDrozen", 11, "JakobPoeltl", 0.333, 55);
 	Insert("BrynFores", 22, "DejonteMurray", 0.777, 66);
 	ShowList();
+	
+	// Practice 1) 가장 큰 avg를 가진 포인터 값을 출력 
+	Student *s, *f;
+	double d = -100;
+	s = head;
+	while(s != NULL) {
+		if(s->ave > d) {
+			d = s->ave;
+			f = s;
+		}
+		s = s->next;
+	}
+	printf("\n\n 가장 큰 ave는 %2f \n가장 큰 ave의 node는 %d", d, f);
+	
 	FreeAll();
 	getchar();
 	
@@ -95,4 +115,5 @@ void FreeAll() {
 	} 
 	head = NULL;
 }
+
 

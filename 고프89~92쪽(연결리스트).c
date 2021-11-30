@@ -24,7 +24,7 @@ int main_linkedlist4(void) {
 	// 기존의 연결리스트 앞에 새로운 리스트 추가하여 출력 
 	Push(10, "TreyLyles", 0.555, 54);
 	ShowList();
-	FreeAll();
+	
 	
 } 
 
