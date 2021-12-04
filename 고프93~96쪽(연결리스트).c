@@ -18,7 +18,7 @@ void FindLast(); // 마지막 리스트에서 name을 출력
 void FreeAll(); // 모든 연결리스트를 free한다 
 
 
-int main/*_linkedlist5*/(void) {
+int main_linkedlist5(void) {
 	Student *m;
 	Append(1, "TimDuncon", 0.986, 98);
 	Append(4, "ToyParker", 0.567, 43);
