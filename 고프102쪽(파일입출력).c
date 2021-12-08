@@ -12,13 +12,13 @@ typedef struct t_rec {
 } Student;
 #pragma pack(pop)
 
-int count;
+int count=0;
 
 void GetRecords(Student r[]); // 파일 입력(읽기)하기 
 void ShowRecords(Student r[]); // 입력한(읽은) 파일의 값 출력 
 void loop(Student r[]); // game++과 레코드 값 한 줄을 추가 but 아직 보조기억장치에 저장 안됨 
 void Add(Student r[], int n, char *cc, double d, int g); // 레코드 한 줄을 추가 
-void SaveRecords(Student r[]);
+void SaveRecords(Student r[]); // 파일 저장하기 
 
 
 int main(void) {
@@ -44,7 +44,7 @@ void GetRecords(Student r[]) {
 void ShowRecords(Student r[]) {
 	int i;
 	for(i=0; i<count; i++) {
-		printf("%d %d %.3f %s\n", r[i].id, r[i].game, r[i].ave, r[i].name);
+		printf("%d %s %.3f %d\n", r[i].id, r[i].name, r[i].ave, r[i].game);
 	}
 }
 
