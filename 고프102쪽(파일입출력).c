@@ -21,7 +21,7 @@ void Add(Student r[], int n, char *cc, double d, int g); // 레코드 한 줄을 추가
 void SaveRecords(Student r[]); // 파일 저장하기 
 
 
-int main(void) {
+int main_FileOperation4(void) {
 	Student m[Max];
 	GetRecords(m); 
 	ShowRecords(m);
