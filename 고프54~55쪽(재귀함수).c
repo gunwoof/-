@@ -4,7 +4,7 @@ void hanoi(char from, char mid, char to, int n); // 하노이 타워(3이상)
 void hanoiA(char from, char mid, char to, int n); // 'A'로부터 출발한 움직임을 세어서 출력 
 void hanoix(char from, char mid, char to, int n); //  n=5, 'A'에 3개의 폴대를 가질때의 장면을 새서 출력
 
-int count =0;
+static int count =0;
 int countpole[3] = {5,0,0};
 
 int main_recursion3(void) {
