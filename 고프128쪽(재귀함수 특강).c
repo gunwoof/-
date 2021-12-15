@@ -1,7 +1,7 @@
 #include <stdio.h>
-#defind N 6
+#define N 6
 
-int A = {10, 20, 10, 30, 20, 50};
+int A[N] = {10, 20, 10, 30, 20, 50};
 
 int max(int x, int y);
 
@@ -22,7 +22,7 @@ int Lis(int n, int m) {
 	}
 	else {
 		mm = max(mm, Lis(n+1, m));
-		if(A[n]<A[n+1])
+		if(A[n]>A[m])
 			mm = max(mm, Lis(n+1, n)+1);
 	}
 	return mm;

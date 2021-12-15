@@ -1,5 +1,5 @@
 [Editors]
-Order=43,42,34,40,41,39,38,44,45,46,47,4,21,31,28,30,29,48,32,36,49,50,27,51,52,53,54,3,55,56,57
+Order=43,42,34,40,41,39,38,44,45,46,47,4,21,31,28,30,29,48,32,36,49,50,27,51,52,53,54,3,55,56,57,37
 Focused=57
 [Editor_34]
 CursorCol=1
@@ -152,7 +152,12 @@ CursorRow=14
 TopLine=1
 LeftChar=1
 [Editor_57]
-CursorCol=15
-CursorRow=25
+CursorCol=9
+CursorRow=11
+TopLine=1
+LeftChar=1
+[Editor_37]
+CursorCol=1
+CursorRow=1
 TopLine=1
 LeftChar=1
