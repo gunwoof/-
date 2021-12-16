@@ -8,7 +8,7 @@ int max(int x, int y);
 // 증가하는 최장 부분 수열의 길이 
 int Lis(int n/*자리 번호*/, int m/*바로 앞의 자리 번호*/);
 
-int main(void) {
+int mainmain_recursion18(void) {
 	printf("%d\n", Lis(0, -1));
 }
 
