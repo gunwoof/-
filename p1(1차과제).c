@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-int main(void) {
+int main_1(void) {
 	int i;
 	int OddSum =0;
 	int EvenSum =0;
