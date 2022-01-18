@@ -1,6 +1,6 @@
 [Editors]
 Order=43,42,34,40,41,39,38,44,45,46,47,4,21,31,28,30,29,48,32,36,49,50,27,51,52,53,54,3,55,56,57,37,7,11,0,5,10,12,15,33
-Focused=57
+Focused=45
 [Editor_34]
 CursorCol=1
 CursorRow=1
@@ -42,8 +42,8 @@ CursorRow=3
 TopLine=1
 LeftChar=1
 [Editor_45]
-CursorCol=9
-CursorRow=3
+CursorCol=2
+CursorRow=13
 TopLine=1
 LeftChar=1
 [Editor_46]
